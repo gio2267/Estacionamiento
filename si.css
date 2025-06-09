@@ -1,0 +1,76 @@
+/* Regla 1: Reseteo básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   /* Regla 2: Tipografía global */
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+   }
+   /* Regla 3: Estilos para el header */
+   header {
+ background-image: url('Screenshot_20250604_084143.jpg');
+    background-color: #58ce62;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+   }
+   header h1 {
+    font-size: 2.5rem;
+   }
+   /* Regla 4: Estilos para navegación */
+   nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   }
+   nav ul li {
+    margin: 0 1rem;
+   }
+   nav ul li a {
+    color: rgb(32, 167, 55);
+    text-decoration: none;
+    font-size: 1.2rem;
+   }
+   /* Regla 5: Sección de héroe */
+   #hero {
+    background-image: url('Screenshot_20250604_084143.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 5rem 1rem;
+    text-align: center;
+   }
+   #hero h2 {
+    font-size: 3rem;
+   }
+   #hero p {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+   }
+   button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+   }
+   button:hover {
+    background-color: #cc7a00;
+   }
+   /* Footer */
+   footer {
+    background-color: #31bdaa;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    
+    margin-top: 2rem;
+
+   }
